@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.kalk {
+    margin:  auto 0 auto;
+    border: 1px solid #666;
+    background: #eee;
+}
+.wyswietlacz {
+color: #fff;
+height: 200px;
+}
+.wyswietlacz input{
+    width: 100%;
+}
+#screen{
+    height: 100%;
+    background-color : black;
+    color: #fff;
+    border: 0px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.klawiatura {
+    height:100%;
+    display: table-row;
+}
+.row {
+    width: 100%;
+    margin-left: 0px !important;
+    height: 16.65%;
+}
+.col{
+    height: 100%;
+}
+.klawiatura .przycisk {
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #666;
+    font-size: 26px;
+    font-weight: bold;
+}
+.container-fluid{
+    height: 100%;
+     display: table; 
+    padding: 0px !important;
+}
+.orange{
+background: #FFA500;
+}
+.orange:hover{
+    background: rgb(226, 140, 42);
+}
+.orange:active{
+    background: rgb(207, 126, 38)
+}
+.grey{
+    background: lightgray;
+}
+.btnHov:hover{
+    background: rgb(196, 196, 196); 
+}
+.btnHov:active{
+    background: rgb(167, 167, 167); 
+}
+button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+button:focus{
+    outline: none !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+@media (max-height: 500px){
+.wyswietlacz{
+    height: 100px;
+}
+.klawiatura .przycisk{
+    font-size: 20px;
+}
+}

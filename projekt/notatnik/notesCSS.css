@@ -1,0 +1,234 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background: rgba(232,232,232,1) !important;
+}
+.container-full{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    overflow: visible !important;
+}
+#header{
+    width: 100%;
+    height: 64px;
+    background-color: rgba(62,80,180,1);
+   padding: 8px;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0px;
+}
+.col-1>.fa-bars{
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px !important;
+    text-align: center;
+    font-size: 24px !important;
+    color:white ;
+}
+.fa-bars:hover{
+    color: black !important;
+    background: rgba(58, 74, 167, 1) !important;
+}
+#name{
+    height: 48px;
+    width: 96px;
+}
+.menu_bar{
+    display: flex;
+    height: calc(100vh - 100%) !important;
+}
+#search{
+    background: rgba(93,108,192,1);
+    height: 48px;
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+}
+::placeholder{
+    color:white
+}
+#search:focus{
+    background: white;
+}
+#search:focus::placeholder{
+    color: gray;
+}
+.container-full>.gray{
+    margin: 0px !important;
+    width: 100%;
+    flex: 1;
+}
+#nth{
+    width: 100%;
+    height: 30px;
+    background: rgba(232,232,232,1);
+    margin: 0px;
+}
+#main-window{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+#main-window>row{
+    text-align: center;
+}
+#wwht{
+    margin-bottom: 50px;
+}
+#sth{
+    background: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+#note{
+    background: white;
+    font-size: 14px;
+    line-height: 19px;
+    min-height: 46px;
+    padding: 12px 15px 15px 15px;
+    text-align: start;
+    color: rgba(116,116,116,1)
+   
+}
+#title{
+    min-height: 43px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    color: rgba(116,116,116,1);
+    display: none;
+}
+#notes-menu{
+    height: 37px;
+    display: none;
+    font-weight: bold;
+    text-align: end;
+}
+ #notes-menu>ul{
+   list-style: none;
+   text-align: center;
+   height: 100%;
+   padding: 0px;
+   margin: 0px;
+}
+#notes-menu>ul>li{
+    display: inline-block;
+}
+#notes-menu>ul>.col-2{
+cursor: pointer;
+}
+
+.notes{
+    margin: 0px !important;
+    width: 100%;
+    display: inline-block !important;
+}
+
+#menu>ul{
+    padding: 0px;
+}
+#menu>ul>li{
+    width: 100%;
+    margin: 0px;
+}
+#done:hover{
+   background:rgba(210,210,210,1);
+}
+.note{
+    width: 240px;
+    background: white;
+   /* min-height: 130px; */
+   margin: 16px;
+   display: inline-block;
+}
+.card{
+    width: 300px !important;
+}
+.card-body{
+    padding: 15px 15px 3px 15px !important;
+}
+.card-footer{
+    text-align: end;
+    padding: 0px 20px !important;
+}
+.fa{
+    padding:0px 10px;
+    color: rgba(116,116,116,1) !important;
+}
+.fa:hover{
+color: black !important;
+}
+.card-footer>.dropup{
+    display: inline;
+}
+.dropup>.fa{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.dropdown-toggle:hover{
+    color: black !important;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-menu{
+    background: rgba(221,221,222,1) !important;
+    left: -100px !important;
+}
+.text-muted{
+    margin: 0px;
+    font-size: 10px !important;
+}
+.card-footer>.fa.fa-times{
+    margin-left: 10px;
+    padding: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+.card-footer>.fa.fa-times:hover{
+    color: brown !important;
+}
+
+.fa-thumb-tack{
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.col{
+   text-align: center;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+#tags{
+    margin-bottom: 0px;
+}
+.btn-link{
+    background: white !important;
+}
+.btn-light{
+    background: rgba(247,247,247,1) !important;
+}
+[contentEditable=true]:empty:before{
+    content:attr(data-text)
+}
+[contentEditable=true]:focus{
+    outline:none;
+}
